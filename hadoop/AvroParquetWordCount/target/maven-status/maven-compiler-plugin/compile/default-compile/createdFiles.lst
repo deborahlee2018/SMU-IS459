@@ -1,0 +1,6 @@
+sg/edu/smu/is459/example/WordCount.class
+sg/edu/smu/is459/example/Post$Builder.class
+sg/edu/smu/is459/example/Post.class
+sg/edu/smu/is459/example/WordCount$IntSumReducer.class
+sg/edu/smu/is459/example/Post$1.class
+sg/edu/smu/is459/example/WordCount$TokenizerMapper.class
