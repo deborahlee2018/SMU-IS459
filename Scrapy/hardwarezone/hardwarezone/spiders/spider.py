@@ -16,7 +16,7 @@ class KiasuSpider(scrapy.Spider):
             post_content = ' '.join(contentlist)
             post_content = post_content.replace('\n', '')
             post_content = post_content.replace('\t', '')
-            post_content = post_content.replace('\u', '')
+            post_content = post_content.replace(r'\u', '')
 
             yield {
                 'topic': topic,

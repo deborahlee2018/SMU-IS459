@@ -30,5 +30,5 @@ class HardwarezonePipeline:
                 raise DropItem("Missing {0}!".format(data))
         if valid:
             #self.collection.insert(dict(item))
-            self.producer.send('scrapy-output', dict(item))
+            self.producer.send('scrapy-messages', dict(item)).get(timeout=10)
         return item
